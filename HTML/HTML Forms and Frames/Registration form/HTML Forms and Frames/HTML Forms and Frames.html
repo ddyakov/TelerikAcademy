@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <form>
+        <table border="1" style="border-collapse:collapse">
+            <tr>
+                <th style="width:150px;">Last Name</th>
+                <td style="width:300px;"><input type="text" style="width:280px;" /></td>
+            </tr>
+            <tr>
+                <th style="width:150px;">First Name</th>
+                <td style="width:200px;"><input type="text" style="width:280px;" /></td>
+            </tr>
+            <tr>
+                <th style="width:150px;">Address</th>
+                <td><textarea style="width:250px;"></textarea></td>
+            </tr>
+            <tr>
+                <th style="width:150px;">City</th>
+                <td><input type="text" style="width:220px;" />State<input type="text" style="width:40px;" /></td>
+            </tr>
+            <tr>
+                <th style="width:150px;">Zip/Postal Code</th>
+                <td><input type="text" style="width:70px;" /></td>
+            </tr>
+            <tr>
+                <th style="width:150px;">Country</th>
+                <td>
+                    <select style="width:200px;">
+                        <option value="1">Bulgaria</option>
+                        <option value="2">USA</option>
+                        <option value="3">Germany</option>
+                        <option value="4">Italy</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th style="width:150px;">Phone(country code, area code, number)</th>
+                <td>(+<input type="text" style="width:50px;" />) <input type="text" style="width:50px;" /> <input type="text" style="width:150px;" /></td>
+            </tr>
+            <tr>
+                <th style="width:150px;">E-mail</th>
+                <td><input type="text" style="width:250px;" /></td>
+            </tr>
+            <tr>
+                <th style="width:150px;">Birth date</th>
+                <td><input type="text" value="дд.мм.гггг г." style="width:130px;" /></td>
+            </tr>
+            <tr>
+                <th style="width:150px;">Gender</th>
+                <td>
+                    <select style="width:70px;">
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>No information</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th style="width:150px;">Starting date</th>
+                <td><input type="radio" value="1" name="radios[]" />Spring 2015<input type="radio" value="2" name="radios[]" />Summer 2015</td>
+            </tr>
+            <tr>
+                <th style="width:150px;">Comments/Questions</th>
+                <td><textarea style="width:250px;"></textarea></td>
+            </tr>
+            <tfoot style="background-color:skyblue">
+                <tr>
+                    <td colspan="2"><center><input type="submit" value="Submit" /> <input type="reset" value="Clean This Form" /></center></td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</body>
+</html>
